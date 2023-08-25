@@ -22,5 +22,7 @@ public class AppClasses {
         System.out.println("This is your gender -> " + client.getGender());
         client.isSpecial();
         System.out.println();
+
+        scanner.close();
     }
 }
